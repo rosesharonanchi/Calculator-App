@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(224, 227, 235);
+}
+.wrapper {
+  max-width: 24rem;
+  height: auto;
+  box-shadow: 12px 12px 20px #cbced1, -12px -12px 20px #ffffff;
+  background-color: #ecf0f3;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 1.5rem;
+}
+.buttons {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem;
+  padding: 1rem 0;
+}
+input {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: rgb(224, 227, 235);
+  height: 5rem;
+  font-size: 2rem;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+  pointer-events: none;
+  text-align: end;
+  padding: 0 0.5rem;
+  color: #000e1a;
+}
+
+button {
+  height: 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  
+  cursor: pointer;
+  background-color: rgb(161, 214, 247);
+  box-shadow: 6px 6px 10px #cbced1, -6px -6px 10px #ffffff;
+  font-size: 1.1rem;
+}
+.buttons button:active {
+  transform: scale(0.8);
+}
+.equal {
+  background-color: rgb(97, 170, 176);
+  color: white;
+}
+.clear {
+  color: white;
+  background-color: rgb(215, 97, 215);
+}
+.operator{
+    color: rgb(213, 100, 39);  
+}
